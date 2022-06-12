@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Image/bg.jpg);
+    background-size: cover;
+    background-position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;   
+}
+h4{
+    color: red;
+    letter-spacing: 2px;
+}
+p{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 30px;   
+}
+.table {
+    text-align: center;
+}
+
+.jadwal .title {
+	margin: 20px 0;
+}
+
+.jadwal {
+	padding: 1px;
+}
+
+.jadwal-content {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(64, 112, 244, 255);
+    margin-top: 170px;
+}
+
+.jadwal-content thead tr {
+	background-color: transparent;
+	color: #ffffff;
+	text-align: center;
+}
+
+.jadwal-content th,
+.jadwal-content td {
+	padding: 12px 15px;
+	border-style: double;
+}
+
+.jadwal-content tbody tr {
+	border-bottom: 1px solid white;
+}
+
+.jadwal-content tbody tr:nth-of-type(even) {
+	background-color: white;
+}
+
+.jadwal-content tbody tr:last-of-type {
+	border-bottom: 2px solid white;
+}
+
+tbody tr {
+	border-bottom: 1px solid white;
+}
+
+.jadwal-content tbody tr:nth-of-type(even) {
+	background-color: transparent;
+}
+
+.jadwal-content tbody tr:last-of-type {
+	border-bottom: 2px solid white;
+}
+
+.jadwal-content tbody tr.active-row {
+	font-weight: bold;
+	color: white;
+}
+
+.jadwal-content tbody tr.ar {
+	font-weight: bold;
+	color: white;
+	background-color: transparent;
+}
